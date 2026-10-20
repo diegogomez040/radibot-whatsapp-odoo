@@ -1,0 +1,25 @@
+# Secrets and local configuration: NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Runtime data (conversations, sales log, supplier list: personal and business data)
+data/
+backups/
+*.db
+*.sqlite*
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local files
+*.xlsx
+*.dump
+*.tar.gz
+*.pem
+*.key
+id_*

@@ -1,0 +1,7 @@
+# Versions the bot is running with are noted; newer releases should work but are untested.
+fastapi>=0.115          # running with 0.135.2
+uvicorn>=0.30           # running with 0.42.0
+openai>=1.40            # running with 2.30.0
+python-dotenv>=1.0      # running with 1.2.2
+requests>=2.25          # prefer a current release
+Pillow>=9.0             # converts WebP/other photos to JPEG for WhatsApp; prefer a current release
